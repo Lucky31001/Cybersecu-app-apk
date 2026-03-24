@@ -4,4 +4,4 @@ Pour décompiler un apk nous avons utiliser la commande suivante de l'outil apkt
 
 ```apktool d -a .\app.apk```
 
-Cela nous a donné le dossier disponible à côté de ce Markdown 
+Cela nous a donné le dossier disponible dans le dossier Story-04
