@@ -14,7 +14,7 @@ Ce qui nous a donner un fichier nommé "CodingFactory" disponible dans le dossie
 
 Pour signer l'application maintenant nous avons mis l'apk rebuild ainsi que le fichier de la clé dans le meme dossier et executé la commande suivante:
 
-```keytool -genkey -v -keystore [your keystore name] -alias alias_name -keyalg RSA -keysize 2048 -validity 10000```
+```apksigner  sign --ks CodingFactory --v1-signing-enabled true --v2-signing-enabled true apk_rebuild_signed```
 
 Ce qui nous a donner le fichier d'apk signé disponible dans le dossier story-08
 
